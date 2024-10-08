@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Turistando</title>
+</head>
+<body>
+
+    <header>
+        <h1>Turistando</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#destinados">Destinos</a></li>
+            <li><a href="#dicas">Dicas de Viagens</a></li>
+            <li><a href="contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+
+            <h2>Destinos</h2>
+            <div class="destino" onclick="mostrarDetalhes('Dourado')">Dourado</div>
+            <div class="destino" onclick="mostrarDetalhes('Broa')">Broa</div>
+            <div class="destino" onclick="mostrarDetalhes('Aparecidinha')">Aparecidinha</div>
+        </section>
+
+        <section id="dicas">
+            <h2>Dicas de Viagens</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed deserunt totam eius distinctio temporibus libero, accusantium quasi quam officiis illum laboriosam quo sapiente nostrum, eos voluptates voluptatibus eaque repellendus? Facilis?</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="text" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy: 2024 Turistando</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
